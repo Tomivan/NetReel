@@ -1,0 +1,31 @@
+
+.container{
+   background-image: url("../../assets/movies7.jpg");
+   margin: 0;
+   padding: 0;
+}
+.logo{
+    color: #86ba3b;
+}
+.top{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.center{
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+}
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: (0,0,0,0.2);
+    z-index: 2;
+}
